@@ -1,6 +1,4 @@
 body{
-    padding: 0;
-    margin: 0;
     font-family: Arial;
 }
 
@@ -10,6 +8,10 @@ body{
     grid-template-rows: 100%; */
     /* grid-template: filas/columnas; */
     grid-template: 300px 100px 100px/ 50% 200px 100px;
+    /* grid-column-gap: 10px;
+    grid-row-gap: 10px; */
+    /* grid-gap: Filas/columnas */
+    grid-gap: 10px 100px;
 }
 
 .item{

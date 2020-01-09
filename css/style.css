@@ -1,0 +1,17 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 25% 50px 25%;
+    grid-template-rows: 25%;
+}
+
+.item{
+    background: lightblue;
+    padding: 10px;
+    border: 1px solid red;
+}
